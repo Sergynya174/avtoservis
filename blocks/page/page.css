@@ -1,0 +1,14 @@
+.page{
+    background-color: aliceblue;
+    color: #2A2C2F;
+    font-weight: 400;
+    max-width: 1280px;
+    min-width: 320px;
+    display: grid;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}

@@ -1,0 +1,10 @@
+.contacts__info{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 544px) {
+    .contacts__info{
+        font-size: 15px;
+    }    
+}

@@ -1,0 +1,19 @@
+.contacts{
+    max-width: 690px;
+    margin-left: 100px;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1200px) {
+    .contacts{
+        margin-left: 48px;
+    }    
+}
+
+@media screen and (max-width: 544px) {
+    .contacts{
+        max-width: 288px;
+        margin-left: 16px;
+        margin-bottom: 64px;
+    }    
+}

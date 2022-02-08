@@ -1,0 +1,20 @@
+.header__info{
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .header__info{
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 544px) {
+    .header__info{
+        flex-direction: column;
+        max-width: 30%;
+        margin-top: 15px;
+        align-self: center;
+    }
+}

@@ -1,0 +1,50 @@
+.cover__overlay{
+    min-height: 740px;
+    text-decoration: none;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0;
+    z-index: 1;
+    background: url(../../../images/remavto-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cover__overlay::before{
+    content: '';
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.3s linear;
+}
+
+.cover__overlay:hover::before{
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover__overlay{
+        min-height: 640px;
+    }    
+}
+
+@media screen and (max-width: 896px) {
+    .cover__overlay{
+        min-height: 480px;
+    }    
+}
+
+@media screen and (max-width: 730px) {
+    .cover__overlay{
+        min-height: 200px;
+    }    
+}

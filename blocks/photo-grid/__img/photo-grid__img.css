@@ -1,0 +1,5 @@
+.photo-grid__img{
+    max-width: 150px;
+    height: 100px;
+    object-fit: contain;
+}

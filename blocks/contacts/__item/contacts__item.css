@@ -1,0 +1,21 @@
+.contacts__item{
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    text-decoration: none;
+    color: #2A2C2F;
+}
+
+.contacts__item:last-of-type{
+    margin-bottom: 15px;
+}
+
+.contacts__item:hover{
+    opacity: .8;
+}
+
+@media screen and (max-width: 544px) {
+    .contacts__item{
+        font-size: 15px;
+    }    
+}

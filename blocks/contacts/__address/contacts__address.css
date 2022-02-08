@@ -1,0 +1,11 @@
+.contacts__address{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 544px) {
+    .contacts__address{
+        font-size: 15px;
+    }    
+}
