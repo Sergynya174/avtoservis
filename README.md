@@ -12,4 +12,4 @@
 * Позиционирование
 * Псевдоклассы
 
-### [Ссылка проекта](https://stokuzminki.ru/)
+### [Ссылка проекта](https://sergynya174.github.io/avtoservis/)
